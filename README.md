@@ -15,7 +15,7 @@ Data Gathered
 
 The files in this repository was created by Gregory McCollum, a student in the University of Michigan School of Information Master of Science in Information program's SI676 course.
 
-The files documented by my scripts are from Dr. Jesse Johnston, the course instructor.
+The files documented by my scripts are from Dr. Jesse Johntson, the course instructor. Additionally the get_checksum() function in assignment1.py was developed by Dr. Jesse Johntson
 ## Repository Files
 
 This repository contains the following files:
@@ -30,6 +30,8 @@ The **data_inventory.csv** file contains the following field:
 
 - *absolute file path* - str - indicating each file's location on my local drive
 - *filename* - str - indicating the file's name
+- *extension* - the dot extension code used at the end of the filename
 - *size* - int - indicating the file's size in bytes
 - *last modified* - YYYY-MM-DD HH-MM-S - a timestamp of when the file was last modified
-- *hash* - str- tbd 
+- *md5_checksum* - str - a checksum for that file developed by MD5 checksum algorithm
+- *sha256_checksum* - str- a checksum for that file developed by SHA256 checksum algorithm
