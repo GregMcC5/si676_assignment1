@@ -45,7 +45,6 @@ headers = ["absolute file path", "filename", "extension", "size (in bytes)", "la
 data_path = os.path.join("networked-services-labs","data")
 
 for folder, subfolder, files in os.walk(data_path):
-    #print(folder, subfolder, file)
     for file in files:
         file_data = []
         filepath = os.path.join(folder, file)
